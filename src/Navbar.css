@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  /* display: grid; */
+}
+
+/* navbar-left {
+  display: flex;
+}
+
+navbar-right {
+  display: flex;
+} */
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
