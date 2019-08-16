@@ -1,0 +1,23 @@
+.jumbotron {
+  display: flex;
+  /* display: grid; */
+  border: 1px solid blue;
+  margin: 1rem 35rem;
+}
+
+h2 {
+  margin: 1rem 0srem;
+}
+
+p {
+  margin: 0.5rem 0rem;
+}
+
+span {
+  display: block;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}

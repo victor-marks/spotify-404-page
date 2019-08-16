@@ -3,7 +3,6 @@ import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-// import logo from './images/logo.svg';
 
 class Navbar extends Component {
   render() {
@@ -13,7 +12,11 @@ class Navbar extends Component {
           <ul>
             <li>
               <NavLink className="nav-item" to="/">
-                Spotify
+                <img
+                  class="logo"
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3130484/spotify-logo.svg"
+                  alt="logo"
+                />
               </NavLink>
             </li>
           </ul>

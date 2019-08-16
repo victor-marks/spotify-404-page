@@ -15,20 +15,28 @@
   display: flex;
   display: inline-block;
   width: 50%;
+  /* vertical-align: center; */
 }
 
 ul {
   display: flex;
 }
 
+li {
+  list-style: none;
+  margin: 0rem 0.7rem;
+}
+
 .navbar-right ul {
   justify-content: flex-end;
 }
 
-li {
-  list-style: none;
-  margin: 0.7rem;
+.navbar-right li {
   float: right;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; /* Column | row */
 }
 
 .nav-item {
@@ -39,4 +47,9 @@ li {
 
 .icon {
   margin: 0rem 0.5rem;
+}
+
+.logo {
+  width: 132px;
+  height: 40px;
 }
