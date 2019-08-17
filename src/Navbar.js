@@ -42,9 +42,15 @@ class Navbar extends Component {
             <li>|</li>
             <li>
               <NavLink className="nav-item" to="/">
-                <FontAwesomeIcon className="icon" icon={faUserCircle} />
-                Profile
-                <FontAwesomeIcon className="icon" icon={faChevronDown} />
+                <ul>
+                  <li>
+                    <FontAwesomeIcon className="icon" icon={faUserCircle} />
+                  </li>
+                  <li>Profile</li>
+                  <li>
+                    <FontAwesomeIcon className="icon" icon={faChevronDown} />
+                  </li>
+                </ul>
               </NavLink>
             </li>
           </ul>

@@ -1,17 +1,14 @@
-.jumbotron {
+.main {
   display: flex;
-  /* display: grid; */
+  align-items: center;
+  justify-content: space-around;
   border: 1px solid blue;
-  margin: 1rem 35rem;
+  margin: 8% 12%;
 }
 
-h2 {
-  margin: 1rem 0srem;
-}
-
-p {
-  margin: 0.5rem 0rem;
-}
+/* h2 {
+  margin: 1rem 0rem;
+} */
 
 span {
   display: block;

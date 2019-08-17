@@ -1,13 +1,12 @@
 .navbar {
   display: flex;
-  /* display: grid; */
   border: 1px solid red;
-  margin: 0.5rem 25rem;
 }
 
 .navbar-left {
   display: flex;
   display: inline-block;
+  justify-content: flex-start;
   width: 50%;
 }
 
@@ -15,7 +14,6 @@
   display: flex;
   display: inline-block;
   width: 50%;
-  /* vertical-align: center; */
 }
 
 ul {
@@ -24,19 +22,16 @@ ul {
 
 li {
   list-style: none;
-  margin: 0rem 0.7rem;
+  margin: 0% 3%;
 }
 
-.navbar-right ul {
+/* .navbar-right ul {
   justify-content: flex-end;
-}
+} */
 
 .navbar-right li {
   float: right;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column; /* Column | row */
 }
 
 .nav-item {
@@ -45,8 +40,12 @@ li {
   font-weight: bold;
 }
 
+.nav-item li {
+  padding: 0% 7%;
+}
+
 .icon {
-  margin: 0rem 0.5rem;
+  margin: 0% 3%;
 }
 
 .logo {
