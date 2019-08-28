@@ -13,7 +13,7 @@ class Navbar extends Component {
             <li>
               <NavLink className="nav-item" to="/">
                 <img
-                  class="logo"
+                  className="logo"
                   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3130484/spotify-logo.svg"
                   alt="logo"
                 />

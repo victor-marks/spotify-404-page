@@ -7,16 +7,30 @@ class Main extends Component {
     return (
       <div className="main">
         <div className="main-text">
-          <h2>
-            <b>
+          <h1 className="title">
+            {/* <b>
               <span>404s and</span>
               <span>heartbreaks</span>
-            </b>
-          </h2>
-          <h3>We couldn't find the page</h3>
-          <h3>you were looking for. Maybe</h3>
-          <h3>our FAQ or Community can</h3>
-          <h3>help?</h3>
+            </b> */}
+            404s and heartbreaks
+          </h1>
+          {/* <h4>We couldn't find the page</h4>
+          <h4>you were looking for. Maybe</h4>
+          <h4>our FAQ or Community can</h4>
+          <h4>help?</h4> */}
+          <h4>
+            We couldn't find the page you were looking for. Maybe our{' '}
+            <Link className="link" to="/">
+              {' '}
+              FAQ{' '}
+            </Link>{' '}
+            or{' '}
+            <Link className="link" to="/">
+              {' '}
+              Community{' '}
+            </Link>{' '}
+            can help?
+          </h4>
           <span>
             <Link className="link" to="/">
               GO BACK

@@ -26,7 +26,8 @@ li {
 }
 
 /* .navbar-right ul {
-  justify-content: flex-end;
+  vertical-align: middle;
+  text-align: center;
 } */
 
 .navbar-right li {
