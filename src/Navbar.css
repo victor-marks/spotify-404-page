@@ -1,34 +1,31 @@
 .navbar {
   display: flex;
-  border: 1px solid red;
 }
 
 .navbar-left {
   display: flex;
   display: inline-block;
   justify-content: flex-start;
-  width: 50%;
+  width: 60%;
 }
 
 .navbar-right {
   display: flex;
   display: inline-block;
-  width: 50%;
+  width: 40%;
+  margin: 0.7rem 0rem;
 }
 
 ul {
   display: flex;
+  margin-left: -30px;
 }
 
 li {
   list-style: none;
   margin: 0% 3%;
+  justify-content: center;
 }
-
-/* .navbar-right ul {
-  vertical-align: middle;
-  text-align: center;
-} */
 
 .navbar-right li {
   float: right;
@@ -39,6 +36,10 @@ li {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.nav-item:hover {
+  color: #f037a5;
 }
 
 .nav-item li {
@@ -52,4 +53,10 @@ li {
 .logo {
   width: 132px;
   height: 40px;
+}
+
+#profile {
+  width: 700%;
+  height: 700%;
+  margin: -55px 0px 0px 0px;
 }

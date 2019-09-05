@@ -40,12 +40,12 @@ class Main extends Component {
         <div className="main-image">
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3130484/record.svg"
-            class="record"
+            className="record"
             alt="record"
           />
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3130484/record-arm.svg"
-            class="arm"
+            className="arm"
             alt="arm"
           />
         </div>

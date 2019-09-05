@@ -2,17 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid blue;
   margin: 8% 12%;
 }
 
 .main-text {
   width: 225px;
 }
-
-/* h2 {
-  margin: 1rem 0rem;
-} */
 
 .title {
   font-size: 24px;
@@ -31,7 +26,6 @@ span {
 h4 {
   font-size: 18px;
   font-weight: 400;
-  /* margin: 0.5em 0 1em; */
 }
 
 .link {
