@@ -38,3 +38,26 @@ h4 {
   color: black;
   text-decoration: none;
 }
+
+.main-image {
+  position: relative;
+}
+
+.record {
+  animation: rotation 2.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.arm {
+  position: absolute;
+  left: 18em;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(230deg);
+  }
+}
